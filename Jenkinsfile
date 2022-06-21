@@ -1,4 +1,7 @@
-def projectName = 'note-demo'
+def githubUser = "moniquehuang"
+def projectName = "note-demo"
+def version = "0.0.1"
+def dockerImageTag = "${githubUser}/${projectName}"
 
 pipeline {
   agent any
