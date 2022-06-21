@@ -20,5 +20,5 @@ RUN \
   npm rebuild node-sass && \
   npm run build
 
-EXPOSE 5000
+EXPOSE 8080
 ENTRYPOINT "./run.sh"
