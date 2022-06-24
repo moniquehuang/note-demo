@@ -1,6 +1,6 @@
 def githubUser = "moniquehuang"
 def projectName = "note-demo"
-def version = "0.0.1"
+def version = "0.0.${currentBuild.number}"
 def dockerImageTag = "${githubUser}/${projectName}"
 
 pipeline {
